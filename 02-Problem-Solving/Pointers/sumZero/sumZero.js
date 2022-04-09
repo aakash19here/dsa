@@ -18,7 +18,7 @@ function sumZeroV2(arr){
         let sum = arr[left] + arr[right];
         if(sum === 0){
             return [arr[left],arr[right]];
-        } else if(sum < 0) {
+        } else if(sum > 0) {
             right --;
         } else {
             left ++;
