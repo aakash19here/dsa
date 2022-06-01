@@ -10,7 +10,7 @@ function binarySearch(arr,target){
         else if(target > val){
             min = middle + 1;
         }
-        else {
+        else{
             return middle
         }
 
